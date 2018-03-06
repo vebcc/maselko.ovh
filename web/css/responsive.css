@@ -1,0 +1,317 @@
+@charset "UTF-8";
+/* Responsive CSS Document */
+
+/* ====================================================================================
+Responsive Layout Media Queries CSS
+(can also be min-device-width or max-device-width for devices changes only)
+======================================================================================= */
+
+
+/* Working out percentages
+(Item width x 100) / Container width (e.g. 940) = %
+*/
+
+/* DEVICES SIZES
+
+iPhone 4,4s
+320 x 480 P
+480 x 320 L
+
+iPhone 5,5s
+320 x 568 P
+568 x 320 L
+
+iPad
+768 x 1024 P
+1024 x 768 L
+
+*/
+
+
+/* iPad/Tablet (Portrait) - Design Width = 768px
+======================================================== */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+	#wrapper {
+		width: 728px;
+	}
+
+	ul.contact li {
+		font-size: 3.0em;
+	}
+
+	.social_title {
+		display: none;
+	}
+
+	.social_icon {
+		display: inline-block !important;
+	}
+
+	h1, p {
+		font-size: 2.4em;
+	}
+
+
+	/* Visible */
+	.visible_desktop_tablet { display: block !important; }
+	.visible_desktop { display: none !important; }
+	.visible_tablet { display: block !important; }
+	.visible_tablet_port { display: block !important; }
+	.visible_phone { display: none !important; }
+	.visible_tablet_phone { display: block !important; }
+	/* Hidden */
+	.hidden_desktop_tablet { display: none !important; }
+	.hidden_desktop { display: block !important; }
+	.hidden_tablet { display: none !important; }
+	.hidden_phone { display: inline-block !important; }
+	.hidden_tablet_phone { display: none !important; }
+
+}
+
+
+/* iPhone/Mobile (Landscape) - Design Width = 480px
+======================================================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	#wrapper {
+		width: 90%;
+	}
+
+	.hr_large {
+		margin: 30px 0 0 0;
+		padding: 0 10px 0 10px;
+	}
+
+	.hr_large .hr.phone {
+		display: none;
+	}
+
+	.hr_large .hr {
+		width: 8.333333333%;
+		height: 6px;
+	}
+
+	.hr_small .hr {
+		width: 5%;
+		height: 3px;
+	}
+
+	.hr_small .hr.phone {
+		display: none;
+	}
+
+	.textrow {
+		margin: 30px 0 0 0;
+		padding: 0 25px 0 25px;
+	}
+
+	ul.contact li {
+		font-size: 2.0em;
+	}
+
+	ul.contact li.item {
+		height: 34px; /* 90 */
+		padding: 15px 0 0 0;
+	}
+
+	.social_title {
+		display: none;
+	}
+
+	.social_icon {
+		display: inline-block !important;
+	}
+
+	footer {
+		margin: 50px 0 0 0;
+	}
+
+	h1, p {
+		font-size: 1.8em;
+	}
+
+	h3 {
+		font-size: 1.4em;
+	}
+
+
+
+	/* Visible */
+	.visible_desktop_tablet { display: none !important; }
+	.visible_desktop { display: none !important; }
+	.visible_tablet { display: none !important; }
+	.visible_phone { display: inline-block !important; }
+	.visible_phone_land { display: block !important; }
+	.visible_tablet_phone { display: block !important; }
+	/* Hidden */
+	.hidden_desktop_tablet { display: block !important; }
+	.hidden_desktop { display: block !important; }
+	.hidden_tablet { display: block !important; }
+	.hidden_phone { display: none !important; }
+	.hidden_tablet_phone { display: none !important; }
+
+}
+
+
+/* iPhone/Mobile (Portrait) - Design Width = 320px
+======================================================== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+	#wrapper {
+		width: 90%;
+	}
+
+	.hr_large {
+		margin: 30px 0 0 0;
+		padding: 0;
+	}
+
+	.hr_large .hr.phone {
+		display: none;
+	}
+
+	.hr_large .hr {
+		width: 8.333333333%;
+		height: 6px;
+	}
+
+	.hr_small .hr {
+		width: 5%;
+		height: 3px;
+	}
+
+	.hr_small .hr.phone {
+		display: none;
+	}
+
+	.textrow {
+		margin: 30px 0 0 0;
+		padding: 0 5px 0 5px;
+	}
+
+	ul.contact {
+		margin: 20px 0 0 0;
+	}
+
+	ul.contact li {
+		font-size: 1.5em;
+		line-height: 1.0em;
+	}
+
+	ul.contact li.item {
+		height: 26px; /* 90 */
+		padding: 15px 0 0 0;
+	}
+
+	ul.contact li.item a:hover {
+		line-height: 0.9em !important;
+	}
+
+	.social_title {
+		display: none;
+	}
+
+	.social_icon {
+		display: inline-block !important;
+	}
+
+	footer {
+		margin: 40px 0 0 0;
+	}
+
+	h1, p {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.1em;
+	}
+
+	a.sociallink {
+		font-size: 0.9em;
+	}
+
+	a.sociallink:hover {
+		font-size: 0.9em;
+	}
+
+
+
+	/* Visible */
+	.visible_desktop_tablet { display: none !important; }
+	.visible_desktop { display: none !important; }
+	.visible_tablet { display: none !important; }
+	.visible_phone { display: inline-block !important; }
+	.visible_phone_port { display: block !important; }
+	.visible_tablet_phone { display: block !important; }
+	/* Hidden */
+	.hidden_desktop_tablet { display: block !important; }
+	.hidden_desktop { display: block !important; }
+	.hidden_tablet { display: block !important; }
+	.hidden_phone { display: none !important; }
+	.hidden_tablet_phone { display: none !important; }
+
+}
+
+
+/* @2x Retina Screens Image Replacement
+======================================================== */
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+
+	/* Example */
+
+    /*#main_logo a {
+		background: url(../images/henry_duncan_logo@2x.png) 0 0 no-repeat;
+		background-size: 160px 55px;
+	}*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5) {
+
+	/* Target Retina Styles Per Device */
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5) {
+
+	/* Target Retina Styles Per Device */
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) and (-webkit-min-device-pixel-ratio: 1.5) {
+
+	/* Target Retina Styles Per Device */
+
+}
+
+
+/* iPhone 5 (both) - Design Width = 480px
+======================================================== */
+
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+	/* Styles */
+
+}
+
+
+/* Old Mobile Phones
+======================================================== */
+
+@media screen and (min-width: 240px) and (max-width: 319px) {
+
+	body {
+		overflow-x: auto;
+	}
+
+}
+
+

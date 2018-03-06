@@ -1,0 +1,199 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P|Archivo+Black|Rubik+Mono+One|Black+Ops+One);
+@font-face{
+font-family: Lemon;
+src:url(../fonts/LemonMilk.otf);
+}
+body{
+    background-image: url("../picture/bg.jpg");
+	background-repeat: no-repeat;
+    background-position: left top;
+	background-origin: padding-box;
+}
+.container{
+	width: 1500px;
+}
+.banner{
+	height: 170px;
+	top: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+.servers{
+	float: left;
+	width: 100%;
+	font-family:Lemon;
+	font-size: 40px;
+	color: black;
+	margin-top: -20px;
+}
+.naszeserwery{
+	margin-left: 3px;
+	margin-bottom: -23px;
+}
+.server{
+	background-color: black;
+	padding-top: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.inserver{
+	margin: 0 auto;
+}
+.ts{
+	float: left;
+	font-family:Lemon;
+	font-size: 26px;
+	color: white;
+}
+.ip{
+	float: right;
+	font-family:Lemon;
+	font-size: 26px;
+	color: white;
+}
+.serverbanner{
+	width: 100%;
+}
+#menupoziome{
+	margin-left:53px;
+	margin-right:52px;
+	margin-top: 0px;
+}
+.menutext{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	font-family:Lemon;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+}
+.buttons{
+	margin-top: 7px;
+	margin-right: -1px;
+}
+.button{
+	font-family:Lemon;
+	color: #ffffff;
+	font-size: 18px;
+	background: #000000;
+	padding: 10px 17px 10px 17px;
+	text-decoration: none;
+	margin-right: 2px;
+}
+#menupoziome > div.buttons > a:nth-child(7){
+	margin-right: 0px;
+}
+.button:hover{
+	color: #000000;
+	background-color: #ff4000;
+	text-decoration: none;
+}
+.content{
+	margin-top: 20px;
+}
+#home{
+	height:550px;
+	padding-top: 20px;
+	clear: none;
+	overflow: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.post{
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+.tittle_post{
+	background-color: black;
+	font-family: 'Black Ops One', 'Press Start 2P';
+	text-align:center;
+	width:100%;
+	height:40px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	color: white;
+}
+.tittle_tx_post{
+	height:30px;
+	padding-top: 1px;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	position: static;
+	left: 0px;
+	top: 50%;
+}
+#home > div > div > div.tittle_tx_post > h2{
+	margin-top: 3px;
+	margin-bottom: 1px;
+}
+.text_post{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family:  'Archivo Black', 'Rubik Mono One', sans-serif;
+	font-size: 14px;
+}
+.stopka_post{
+	width:100%;
+	height:25px;
+}
+.autor_post{
+	width:200px;
+	height:100%;
+	font-family: 'Archivo Black', 'Rubik Mono One', sans-serif;
+	margin-left: 15px;
+}
+.add_post{
+	width:250px;
+	height:100%;
+	float: right;
+	position: relative;
+	margin-top: -30px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: 'Archivo Black', 'Rubik Mono One', sans-serif;
+}
+.footer{
+	margin-top: 30px;
+	text-align: center;
+}
+.autor{
+	font-family: 'Rubik Mono One', sans-serif;
+}
+.listhide{
+	display: none;
+}
+#listts{
+	text-align: center;
+}
+.tsinfo{
+	font-family: 'Black Ops One', 'Press Start 2P';
+	font-size: 20px;
+}
+.tsnick{
+	font-family: 'Archivo Black', 'Rubik Mono One', sans-serif;
+}
+#ww > div > div.col-md-5 > div > div > div > button{
+    background-color: transparent;
+	border: none;
+}
+.frame{
+	width: 100%;
+	min-height: 500px;
+	text-align: center;
+}
+@media (max-width: 991px){
+
+}
